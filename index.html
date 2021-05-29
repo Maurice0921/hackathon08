@@ -293,23 +293,58 @@
 						<ul>
 							<h3>Pseudocódigo:</h3>
 							<li>
-								<span>Definir</span> pulgada, metro, resultado
+								<span>Definir</span> soles,tipoCambio,dolares
 								<span>Como Real;</span>
 							</li>
-							<li><span>Escribir</span> "Ingrese los metros de tela:";</li>
-							<li></li>
-							<li><span>Leer</span> metro;</li>
-							<li>resultado<-metro*tela;</li>
-							<li>metro," metros es igual a:", resultado, " pulgadas",area;</li>
+							<li><span>Escribir</span> "Ingrese la cantidad de soles a convertir:";</li>
+							<li><span>Leer</span> soles;</li>
+                            <li><span>Escribir</span> "Ingrese tipo de cambio del dolar:";</li>
+							<li><span>Leer</span> tipoCambio;</li>
+							<li>dolares<-soles/tipoCambio;</li>
+							<li>soles," soles, es igual a:",dolares," dolares";</li>
 						</ul>
 					</div>
 					<div class="solucion">
 						<ul>
 							<h3>En Pantalla:</h3>
 							<li><span>*** Ejecución Iniciada. ***</span></li>
-							<li>Ingrese los metros de tela:</li>
-							<li>>800</li>
-							<li>800 metros es igual a:20.32 pulgada</li>
+							<li>Ingrese la cantidad de soles a convertir:</li>
+							<li>>360</li>
+                            <li>Ingrese el tipo de cambio del dolar:</li>
+							<li>>3.60</li>
+							<li>360 soles, es igual a:100 dolares</li>
+							<li><span>*** Ejecución Finalizada. ***</span></li>
+						</ul>
+					</div>
+				</article>
+                <article class="elemento">
+					<h2 class="subtitulo">Ejercicio 09</h2>
+					<p class="parrafo">
+						Una empresa que contrata personal requiere determinar la edad de las personas que solicitan trabajo, pero cuando se les realiza la entrevista sólo se les pregunta el año en que nacieron
+					</p>
+					<div class="solucion">
+						<ul>
+							<h3>Pseudocódigo:</h3>
+							<li>
+								<span>Definir</span> anio_nac,anio_actual, edad <span>Como Entero;</span>
+							</li>
+							<li><span>Escribir</span> "Ingrese el año vigente en numeros:";</li>
+							<li><span>Leer</span> anio_actual;</li>
+                            <li><span>Escribir</span> "Ingrese el año de nacimiento:";</li>
+							<li><span>Leer</span> anio_nac;</li>
+							<li>edad<-anio_actual-anio_nac;</li>
+							<li>"su edad es de: ",edad;</li>
+						</ul>
+					</div>
+					<div class="solucion">
+						<ul>
+							<h3>En Pantalla:</h3>
+							<li><span>*** Ejecución Iniciada. ***</span></li>
+							<li>Ingrese el año vigente en numeros:</li>
+							<li>2021</li>
+                            <li>Ingrese el año de nacimiento:</li>
+							<li>>1988</li>
+							<li>su edad es de: 33</li>
 							<li><span>*** Ejecución Finalizada. ***</span></li>
 						</ul>
 					</div>
